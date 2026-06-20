@@ -1,0 +1,5 @@
+state,recommended_action,strategy,deadline_dmax,sample_n,value_function,p_next_high,p_next_low,expected_state_score,resource_cost
+Low,Travel/Experience / ≤30 days,Travel/Experience,30,25,6.958273075631278,0.07586206896551724,0.44137931034482764,0.671264367816092,1.5
+Normal,Lifestyle/Other / ≤30 days,Lifestyle/Other,30,14,7.919031656620812,0.20162297128589265,0.18102372034956304,1.023096129837703,0.9
+Hit,Travel/Experience / ≤30 days,Travel/Experience,30,15,11.019693765594367,0.7052631578947368,0.007017543859649123,2.017543859649123,1.5
+Viral,Travel/Experience / ≤14 days,Travel/Experience,14,5,13.941315907127056,1.0,0.0,2.861111111111111,1.7

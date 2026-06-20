@@ -1,0 +1,52 @@
+{
+  "analysis_date": "2026-06-20",
+  "states": [
+    "Low",
+    "Normal",
+    "Hit",
+    "Viral"
+  ],
+  "state_scores": {
+    "Low": 0.0,
+    "Normal": 1.0,
+    "Hit": 2.0,
+    "Viral": 3.0
+  },
+  "high_states": [
+    "Hit",
+    "Viral"
+  ],
+  "deadlines_days": [
+    7,
+    14,
+    30
+  ],
+  "discount_factor": 0.85,
+  "lambda_cost_standard_mdp": 0.25,
+  "smoothing_strength": 4.0,
+  "min_observations_standard_mdp": 3,
+  "strategy_costs": {
+    "Lifestyle/Other": 0.8,
+    "Talk/Topic": 1.0,
+    "Review/Tech": 1.2,
+    "Travel/Experience": 1.4
+  },
+  "deadline_costs": {
+    "7": 0.6,
+    "14": 0.3,
+    "30": 0.1
+  },
+  "cmdp": {
+    "budget": 1.5,
+    "low_risk_limit": 0.2,
+    "high_rate_min": 0.4,
+    "min_observations": 2,
+    "formulation": "discounted occupancy-measure linear program"
+  },
+  "static_chance_constrained_selector": {
+    "tau_high_probability": 0.7,
+    "alpha_low_probability": 0.25,
+    "budget": 1.8,
+    "min_observations": 3
+  }
+}

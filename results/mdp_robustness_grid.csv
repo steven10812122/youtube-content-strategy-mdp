@@ -1,0 +1,10 @@
+model,gamma,lambda_cost,policy_low,policy_normal,policy_hit,policy_viral,iterations
+value_iteration,0.7,0.1,Travel/Experience / ≤30 days,Lifestyle/Other / ≤30 days,Travel/Experience / ≤30 days,Travel/Experience / ≤14 days,55
+value_iteration,0.7,0.25,Travel/Experience / ≤30 days,Lifestyle/Other / ≤30 days,Travel/Experience / ≤30 days,Travel/Experience / ≤14 days,55
+value_iteration,0.7,0.5,Talk/Topic / ≤30 days,Lifestyle/Other / ≤30 days,Travel/Experience / ≤30 days,Travel/Experience / ≤14 days,54
+value_iteration,0.85,0.1,Travel/Experience / ≤30 days,Lifestyle/Other / ≤30 days,Travel/Experience / ≤30 days,Travel/Experience / ≤14 days,119
+value_iteration,0.85,0.25,Travel/Experience / ≤30 days,Lifestyle/Other / ≤30 days,Travel/Experience / ≤30 days,Travel/Experience / ≤14 days,118
+value_iteration,0.85,0.5,Travel/Experience / ≤30 days,Lifestyle/Other / ≤30 days,Travel/Experience / ≤30 days,Travel/Experience / ≤14 days,117
+value_iteration,0.95,0.1,Travel/Experience / ≤30 days,Lifestyle/Other / ≤30 days,Travel/Experience / ≤7 days,Travel/Experience / ≤14 days,373
+value_iteration,0.95,0.25,Travel/Experience / ≤30 days,Lifestyle/Other / ≤30 days,Travel/Experience / ≤30 days,Travel/Experience / ≤14 days,371
+value_iteration,0.95,0.5,Travel/Experience / ≤30 days,Lifestyle/Other / ≤30 days,Travel/Experience / ≤30 days,Travel/Experience / ≤14 days,366

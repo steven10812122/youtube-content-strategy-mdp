@@ -1,0 +1,5 @@
+state,policy_probability,action,strategy,deadline_dmax,sample_n,p_next_high,p_next_low,expected_state_score,resource_cost,discounted_occupancy
+Low,1.0,Travel/Experience / ≤30 days,Travel/Experience,30,25,0.0758620689655172,0.4413793103448276,0.671264367816092,1.5,1.137249968515202
+Normal,1.0,Lifestyle/Other / ≤14 days,Lifestyle/Other,14,14,0.2016229712858926,0.181023720349563,1.023096129837703,1.1,2.546606339946392
+Hit,1.0,Travel/Experience / ≤7 days,Travel/Experience,7,9,0.7230769230769231,0.0102564102564102,2.025641025641025,2.0,1.267054277539354
+Viral,1.0,Travel/Experience / ≤14 days,Travel/Experience,14,5,1.0,0.0,2.861111111111111,1.7,1.7157560806655985
